@@ -5,8 +5,11 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 import App from './App'
 import router from './router'
+import VueDraggableResizable from 'vue-draggable-resizable'
 
 Vue.use(ElementUI)
+
+Vue.component('vue-draggable-resizable', VueDraggableResizable)
 
 Vue.config.productionTip = false
 
