@@ -4,7 +4,7 @@
       <h1>Let's draw something</h1>
     </el-row>
     <el-row>
-      control
+      <el-button type="primary" @click="addDiv">New</el-button>
     </el-row>
     <el-row>
       <div class="drawing-space">
@@ -12,6 +12,16 @@
     </el-row>
   </div>
 </template>
+
+<script>
+export default{
+  methods: {
+    addDiv () {
+      console.log('add a div')
+    }
+  }
+}
+</script>
 
 <style>
 .drawing-space {
