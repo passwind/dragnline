@@ -11,6 +11,11 @@ Vue.use(ElementUI)
 
 Vue.component('vue-draggable-resizable', VueDraggableResizable)
 
+/**
+* jQuery and Bootstrap includes
+*/
+require('./includes')
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
